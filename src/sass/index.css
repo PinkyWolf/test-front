@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
 }
-button {
+.registration-btn {
   background-color: transparent;
   color: #6ceec7;
   padding-top: 11.5px;
@@ -13,33 +13,20 @@ button {
   font-weight: 500;
   border-color: #6ceec7;
   border-radius: 5px;
+  transition: 0.3s;
 }
-header {
-  display: flex;
-}
-li {
-  list-style-type: none;
+.registration-btn:hover {
+  background: #6ceec7;
+  color: black;
 }
 .hero {
-  height: 800px;
-  width: 1440px;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  height: 100vh;
   background: url(../../assets/img-bgs/bg-1.jpg) no-repeat;
-  margin-right: auto;
-  margin-left: auto;
+  background-size: 100%;
 }
 .hero-wrapper {
+  padding-top: 285px;
   margin-left: auto;
-}
-.hero-list-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  flex-direction: column;
 }
 .hero-title {
   display: flex;
@@ -53,4 +40,72 @@ li {
 }
 .hero-title-accent {
   color: #6ceec7;
+}
+
+.sign-up-wrapper {
+  height: 100vh;
+  background: url(../../assets/img-bgs/bg-2.jpg) no-repeat;
+  background-size: 100%;
+}
+.signup-form {
+  padding-top: 208px;
+}
+.signup-title {
+  color: #fff;
+  padding-bottom: 55px;
+  font-size: 24px;
+  margin-left: 350px;
+}
+.signup-title-accent {
+  color: #6ceec7;
+}
+.row {
+  padding-bottom: 30px;
+}
+.signup-input {
+  width: 300px;
+  height: 56px;
+  background-color: transparent;
+  outline: 1px solid #fff;
+  border-radius: 5px;
+  color: #6ceec7;
+}
+::placeholder {
+  color: #6ceec7;
+}
+.signUp-btn {
+  padding-right: 47px;
+  padding-left: 47px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: black;
+  background: #6ceec7;
+  margin-left: 335px;
+  transition: 0.3s;
+  border: transparent;
+  border-radius: 5px;
+}
+.signUp-btn:focus {
+  background: transparent;
+}
+.signUp-btn:hover {
+  background: transparent;
+  border: #6ceec7 solid 2px;
+  color: #6ceec7;
+}
+.signup-checkbox {
+  background-color: transparent;
+}
+.signup-label {
+  color: #6ceec7;
+}
+.underlined {
+  text-decoration: underline;
+}
+a {
+  color: #6ceec7;
+}
+a:hover {
+  color: #6ceec7;
+  cursor: pointer;
 }

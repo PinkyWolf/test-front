@@ -16,21 +16,78 @@
     <header>
         <div class="hero">
             <div class="container hero-wrapper">
-                <ul class="hero-list-container">
-                    <li><img src="../assets/logo.svg" alt="logo"></li>
-                    <li><h1 class="hero-title">Find the <span class="hero-title-accent">&nbspbest place 
-                            to rest&nbsp</span> while traveling</h1></li>
-                    <li><button>Registration</button></li>
-                </ul>  
+                <div class="row justify-content-center">
+                    <div class="col-3"><img src="../assets/logo.svg" alt="logo"></div>
+                    <div class="w-100"></div>
+                    <div class="col-8"><h1 class="hero-title">Find the <span class="hero-title-accent">&nbspbest place 
+                            to rest</span> while traveling</h1></div>
+                    <div class="w-100"></div>
+                    <div class="col-3"><button class="registration-btn">Registration</button></div>
+                </div>
         </div>       
         </div>
     </header>
+    <div class="sign-up-wrapper">
+        <div class="container">
+            <form class="signup-form">
+                <h2 class="signup-title"> <span class="signup-title-accent">Sign Up</span> and find the best place to rest while traveling</h2>
+            
+            <div class="row justify-content-center">
+                <div class="col-3">
+                <label for="exampleInputEmail1" ></label>
+                <input class="signup-input firstName" type="text" placeholder="First Name">
+            </div>
+            <div class="col-3">
+                <label for="e"></label>
+                <input class="signup-input secondName" type="text" placeholder="Second Name">
+            </div>
+            </div>
 
+            <div class="w-100"></div>
 
+            <div class="row justify-content-center">
+                <div class="col-3">
+                <label for="e"></label>
+                <input class="signup-input country" type="text" placeholder="Country" >
+            </div>
+            <div class="col-3">
+                <label for="e"></label>
+                <input class="signup-input phone" type="phone" placeholder="Phone" >
+            </div>
+            </div>
+            
+            <div class="w-100"></div>
 
+            <div class="row justify-content-center">
+            <div class="col-3">
+                <label for="e"></label>
+                <input class="signup-input password" type="password" placeholder="Password">
+            </div>
+            <div class="col-3">
+                <label for="e"></label>
+                <input class="signup-input confirmPassword" type="password" placeholder="Confirm password">
+            </div>
+            </div>
 
+            <div class="w-100"></div>
+
+            <div class="row justify-content-center">
+            <div class="col-3 ">
+                <label  for="e"></label>
+                <input class="signup-input email" type="email" placeholder="Email">
+            </div>
+            <div class="col-3 ">
+                <input class="signup-checkbox checkbox" type="checkbox" placeholder="">
+                <label class="signup-label" >I agree to the <a class="underlined">Terms & Conditions</a></label>
+            </div>
+            </div>
+            <button type="submit" class="signUp-btn" >Sign Up</button>
+        </form>
+    </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+        <script src="./index.js" ></script>
 </body>
 </html>
